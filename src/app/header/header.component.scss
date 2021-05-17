@@ -1,0 +1,32 @@
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        font-weight: 500;
+
+        &:hover{
+            color: rgba($color: #FFFFFF, $alpha: 0.8);
+        }
+    }
+
+    img{
+        height: 50px;
+    }
+
+}
+
